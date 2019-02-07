@@ -34,7 +34,7 @@ class Init(object):
             f'echo {configsrc.RHEV_PASSWORD} | openssl enc -aes-128-cbc -a -d -salt -pass pass:wtf')
 
 
-
+    #This method move vm disks between storage domains
     def move_disks(self,storage,vm):
 
         try:
