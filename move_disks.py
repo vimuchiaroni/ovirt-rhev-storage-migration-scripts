@@ -1,7 +1,7 @@
 """
 move_disks.py
 
-Python Script for manage and automate ovirt/rhv disk moves between storage domains.
+Python Script to manage and automate ovirt/rhv disk moves between storage domains.
 It can be used during a storage migration, for example.
 In this script I am considering the disks are named after the Virtual Machine, i.e , YourVM_Disk0 and the VM has no extra snaphots besides the active one.
 
