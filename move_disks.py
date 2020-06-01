@@ -84,11 +84,11 @@ def main():
     rhev = Init()
 
     #Get the argument
-    #arg = sys.argv[1]
-    #arg1 = sys.argv[2]
+    arg = sys.argv[1]
+    arg1 = sys.argv[2]
 
 
-    rhev.move_disks(<YourStorageDomain>,<YourVM>)
+    rhev.move_disks(storage=arg,vm=arg1)
 
 
 
