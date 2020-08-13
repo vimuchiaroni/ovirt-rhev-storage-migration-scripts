@@ -9,5 +9,5 @@ In this project I am considering the disks are named after the Virtual Machine, 
 The below command will move all discs from <VM_NAME> to a new storage domain <NEW_STORAGE_DOMAIN>:
 
 ```
-python move_sd.py <NEW_STORAGE_DOMAIN> <VM_NAME>
+python move_disks.py <NEW_STORAGE_DOMAIN> <VM_NAME>
 ```
